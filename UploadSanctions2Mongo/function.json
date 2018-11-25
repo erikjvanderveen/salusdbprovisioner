@@ -1,0 +1,12 @@
+{
+  "disabled": false,
+  "bindings": [
+    {
+      "name": "myBlob",
+      "type": "blobTrigger",
+      "direction": "in",
+      "path": "03-json/{name}",
+      "connection": "retrievesanctio92fd_STORAGE"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "name": "getsanctions",
+  "version": "1.0.0",
+  "description": "To get sanctionsfile reformat and push to cosmodb",
+  "main": "index.js",
+  "dependencies": {
+    "azure-storage": "^2.10.2",
+    "file-type": "^10.0.0",
+    "mongoose": "^5.3.12",
+    "node-fetch": "^2.2.0",
+    "stream": "0.0.2",
+    "xml2js": "^0.4.19"
+  },
+  "devDependencies": {
+    "@types/mongoose": "^5.3.1",
+    "@types/xml2js": "^0.4.3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
